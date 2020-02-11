@@ -15,7 +15,7 @@ public class machebaraTest {
     public WebDriver functions;
 
 
-    //@Before
+    @Before
     public void wDriver(){
 //        ChromeOptions options = new ChromeOptions();
 //        Map<String, Object> preference = new HashMap<String, Object>();
@@ -26,21 +26,20 @@ public class machebaraTest {
 //        options.setExperimentalOption("useAutomationExtension", false);
 //        options.addArguments("--use-fake-ui-for-media-stream=1");
         System.setProperty("webdriver.chrome.driver", "webdrivers/chromedriver.exe");
-//        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
         //functions = new Functions();
-        driver.get("http://variety.stg.inn.inmgt.com/");
         //System.out.println("connected");
     }
 
-//    @Test
-//    public void login(){
-//        driver.get("http://variety.stg.inn.inmgt.com/");
-//        driver.findElement(By.id("js-login_modal")).click();
-//        driver.findElement(By.xpath("//*[@id='js-sns-login_modal_body']/div/div/div[3]/p[1]/span[1]")).click();
-//        driver.findElement(By.id("user_id_or_mail")).sendKeys("kimmyornopia@gmail.com");
-//        driver.findElement(By.name("password")).sendKeys("admin123");
-//        driver.findElement(By.cssSelector("c-btn c-btn-color--blue c-btn--registerFrom")).click();
+    @Test
+    public void login(){
+        driver.get("http://variety.stg.inn.inmgt.com/");
+        driver.findElement(By.id("js-login_modal")).click();
+        driver.findElement(By.xpath("//*[@id='js-sns-login_modal_body']/div/div/div[3]/p[1]/span[1]")).click();
+        driver.findElement(By.id("user_id_or_mail")).sendKeys("kimmyornopia@gmail.com");
+        driver.findElement(By.name("password")).sendKeys("admin123");
+        driver.findElement(By.cssSelector("c-btn c-btn-color--blue c-btn--registerFrom")).click();
 
-//    }
+    }
 }
