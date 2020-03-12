@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cbde343-2ee8-415e-9a4c-2cb6192b197d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/CommonFunctions/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/CommonFunctions/Functions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/MachebaraTestcase/machebaraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/MachebaraTestcase/machebaraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/MachebaraTestcase/machebaraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/MachebaraTestcase/machebaraTest.class" afterDir="false" />
@@ -35,13 +37,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../FROM DRIVER C/SeleniumAct1" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
-  <component name="RunManager" selected="JUnit.machebaraTest.sendGift">
-    <configuration name="machebaraTest.joinBcast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.machebaraTest.talentSendChat">
+    <configuration name="machebaraTest.joinFreeBcast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Machebara" />
       <extension name="coverage">
         <pattern>
@@ -51,7 +53,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.MachebaraTestcase" />
       <option name="MAIN_CLASS_NAME" value="com.MachebaraTestcase.machebaraTest" />
-      <option name="METHOD_NAME" value="joinBcast" />
+      <option name="METHOD_NAME" value="joinFreeBcast" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,22 +70,6 @@
       <option name="PACKAGE_NAME" value="com.MachebaraTestcase" />
       <option name="MAIN_CLASS_NAME" value="com.MachebaraTestcase.machebaraTest" />
       <option name="METHOD_NAME" value="loginTalent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="machebaraTest.registerViaEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Machebara" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.MachebaraTestcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.MachebaraTestcase" />
-      <option name="MAIN_CLASS_NAME" value="com.MachebaraTestcase.machebaraTest" />
-      <option name="METHOD_NAME" value="registerViaEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,13 +107,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="machebaraTest.talentSendChat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Machebara" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.MachebaraTestcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.MachebaraTestcase" />
+      <option name="MAIN_CLASS_NAME" value="com.MachebaraTestcase.machebaraTest" />
+      <option name="METHOD_NAME" value="talentSendChat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.machebaraTest.talentSendChat" />
         <item itemvalue="JUnit.machebaraTest.sendGift" />
-        <item itemvalue="JUnit.machebaraTest.joinBcast" />
+        <item itemvalue="JUnit.machebaraTest.joinFreeBcast" />
         <item itemvalue="JUnit.machebaraTest.startBcast" />
         <item itemvalue="JUnit.machebaraTest.loginTalent" />
-        <item itemvalue="JUnit.machebaraTest.registerViaEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -148,60 +150,61 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="179" key="#Project_Structure" timestamp="1581321658845">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2472" y="367" key="#Project_Structure" timestamp="1583994857641">
+      <screen x="1920" y="188" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/1920.188.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581321658845" />
+    <state x="2472" y="367" key="#Project_Structure/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1583994857641" />
     <state x="2334" y="364" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581407198837">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
     <state x="2334" y="364" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1581407198837" />
-    <state x="2660" y="464" key="FileChooserDialogImpl" timestamp="1581411022935">
+    <state x="2660" y="464" key="FileChooserDialogImpl" timestamp="1583994823530">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/1920.188.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581320798287" />
-    <state x="2660" y="464" key="FileChooserDialogImpl/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1581411022935" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581938695812">
+    <state x="2660" y="464" key="FileChooserDialogImpl/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1583994823530" />
+    <state width="1877" height="419" key="GridCell.Tab.0.bottom" timestamp="1584001541284">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1581938695812" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1581938695812">
+    <state width="1877" height="419" key="GridCell.Tab.0.bottom/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1584001541284" />
+    <state width="1877" height="419" key="GridCell.Tab.0.center" timestamp="1584001541284">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1581938695812" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1581938695812">
+    <state width="1877" height="419" key="GridCell.Tab.0.center/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1584001541284" />
+    <state width="1877" height="419" key="GridCell.Tab.0.left" timestamp="1584001541284">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1581938695812" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1581938695812">
+    <state width="1877" height="419" key="GridCell.Tab.0.left/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1584001541284" />
+    <state width="1877" height="419" key="GridCell.Tab.0.right" timestamp="1584001541284">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1581938695812" />
-    <state width="1877" height="419" key="GridCell.Tab.1.bottom" timestamp="1581936609633">
+    <state width="1877" height="419" key="GridCell.Tab.0.right/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1584001541284" />
+    <state width="1877" height="419" key="GridCell.Tab.1.bottom" timestamp="1584001541285">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
-    <state width="1877" height="419" key="GridCell.Tab.1.bottom/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1581936609633" />
-    <state width="1877" height="419" key="GridCell.Tab.1.center" timestamp="1581936609633">
+    <state width="1877" height="419" key="GridCell.Tab.1.bottom/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1584001541285" />
+    <state width="1877" height="419" key="GridCell.Tab.1.center" timestamp="1584001541285">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
-    <state width="1877" height="419" key="GridCell.Tab.1.center/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1581936609633" />
-    <state width="1877" height="419" key="GridCell.Tab.1.left" timestamp="1581936609632">
+    <state width="1877" height="419" key="GridCell.Tab.1.center/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1584001541285" />
+    <state width="1877" height="419" key="GridCell.Tab.1.left" timestamp="1584001541284">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
-    <state width="1877" height="419" key="GridCell.Tab.1.left/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1581936609632" />
-    <state width="1877" height="419" key="GridCell.Tab.1.right" timestamp="1581936609633">
+    <state width="1877" height="419" key="GridCell.Tab.1.left/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1584001541284" />
+    <state width="1877" height="419" key="GridCell.Tab.1.right" timestamp="1584001541285">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
-    <state width="1877" height="419" key="GridCell.Tab.1.right/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1581936609633" />
+    <state width="1877" height="419" key="GridCell.Tab.1.right/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1584001541285" />
     <state x="2537" y="352" key="SettingsEditor" timestamp="1581403980144">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
     <state x="2537" y="352" key="SettingsEditor/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1581403980144" />
-    <state x="2576" y="533" key="com.intellij.ide.util.TipDialog" timestamp="1582002734038">
+    <state x="2576" y="533" key="com.intellij.ide.util.TipDialog" timestamp="1583994329177">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog/1920.188.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581390121015" />
-    <state x="2576" y="533" key="com.intellij.ide.util.TipDialog/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1582002734038" />
+    <state x="2576" y="533" key="com.intellij.ide.util.TipDialog/1920.188.1920.1040/0.0.1920.1040@1920.188.1920.1040" timestamp="1583994329177" />
     <state x="2262" y="411" key="new project wizard" timestamp="1581404148003">
       <screen x="1920" y="188" width="1920" height="1040" />
     </state>
